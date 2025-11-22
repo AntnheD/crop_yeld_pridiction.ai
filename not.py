@@ -1,4 +1,17 @@
+import os
 import json
+
+# Make sure notebooks folder exists
+notebooks_path = "../notebooks"
+os.makedirs(notebooks_path, exist_ok=True)  # creates folder if missing
+
+# Save notebook
+notebook_file = os.path.join(notebooks_path, "analysis.ipynb")
+with open(notebook_file, "w") as f:
+    json.dump(notebook_content, f, indent=2)
+
+print(f"✅ Notebook '{notebook_file}' created successfully.")
+
 
 # JSON content for the notebook
 notebook_content = {
