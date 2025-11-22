@@ -44,6 +44,13 @@ Shape: `(24683, 9)`
 
 ---
 
+## 📉 Visual Insights
+
+<p align="center">
+  <img src="images/chart1.png" width="45%" alt="Chart 1 - Yield Trends"/>
+ 
+</p>
+
 ## Methodology
 
 1. **Load and Explore Data**  
